@@ -1,0 +1,15 @@
+[package]
+name = "andromeda"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytemuck = "1.23.0"
+eframe = { version = "0.31.1", features = ["glow"] }
+egui_extras = { version = "0.31.1", features = ["image"] }
+sysinfo = "0.35.1"
+"xsynth-core" = "0.3.1"
+rfd = "0.14"
+"cpal" = "0.15.3"
+rand = "0.8"
+rayon = "1.10.0"
